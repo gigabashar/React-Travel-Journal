@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 2rem;
+  background-color: #f55a5a;
+}
+
+header .earth {
+  font-size: 5rem;
+  color: white;
+}
+
+header h1 {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.075em;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+main img {
+  max-width: 20rem;
+  height: 27.2rem;
+}
+
+main p {
+  max-width: 33rem;
+}
+
+main .About {
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.checkpoint {
+  color: #f55a5a;
+  font-size: 2rem;
+  margin-left: -0.7rem;
+}
+.location h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+}
+
+.location span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+
+.About h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  color: #2b283a;
+  padding-top: 1.5rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 3rem;
+}
+
+.description span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 12px;
+  color: #2b283a;
+}
+
+.description p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #2b283a;
+}
